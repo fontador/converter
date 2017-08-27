@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Unit converter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Select2 plugin  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="app.min.js"></script>
+    <style>
+
+        body {
+            background-color: #f2f2f2;
+            font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        }
+
+        #headline {
+            font-size: 80px;
+            line-height: 1.0625;
+            font-weight: 500;
+            letter-spacing: -.02em;
+            font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+            margin-bottom: 20px;
+        }
+
+        .top5 {
+            margin-top: 5px;
+        }
+
+        .top7 {
+            margin-top: 7px;
+        }
+
+        .top10 {
+            margin-top: 10px;
+        }
+
+        .top15 {
+            margin-top: 15px;
+        }
+
+        .top17 {
+            margin-top: 17px;
+        }
+
+        .top30 {
+            margin-top: 30px;
+        }
+        /* Set black background color, white text and some padding */
+
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row top15">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+                <span id="headline">Unit converter</span>
+            </div>
+        </div>
+
+        <div class="row top30">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                <div>
+                    <select id="selectType" style="width: 100%">
+                         <option></option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row top10">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                <div>
+                    <select id="selectUnit" style="width: 100%">
+                         <option></option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row top30">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                <form>
+                    <div class="form-group">
+                        <input type="number" class="form-control input-md" id="inputNumberContainer" placeholder="" disabled="disabled">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+                <ul class="list-group" id="results">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer  -->
+    <!-- <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer> -->
+
+</body>
+
+</html>

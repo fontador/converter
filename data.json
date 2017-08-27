@@ -1,0 +1,202 @@
+[
+    {
+        "id": 0,
+        "type": "weight",
+        "conversions": [
+            {
+                "from": "pound",
+                "to": [
+                    {
+                        "unit": "tonne",
+                        "multiplier": "0.000453592"
+                    },
+                    {
+                        "unit": "kilogram",
+                        "multiplier": "0.453592"
+                    },
+                    {
+                        "unit": "gram",
+                        "multiplier": "453.592"
+                    },
+                    {
+                        "unit": "milligram",
+                        "multiplier": "453592.37"
+                    },
+                    {
+                        "unit": "microgram",
+                        "multiplier": "453592370"
+                    },
+                    {
+                        "unit": "imperialTonne",
+                        "multiplier": "0.000446429"
+                    },
+                    {
+                        "unit": "usTonne",
+                        "multiplier": "0.0005"
+                    },
+                    {
+                        "unit": "stone",
+                        "multiplier": "0.0714286"
+                    },
+                    {
+                        "unit": "pound",
+                        "multiplier": "1"
+                    },
+                    {
+                        "unit": "ounce",
+                        "multiplier": "16"
+                    }
+                ]
+            },
+            {
+                "from": "kilogram",
+                "to": [
+                    {
+                        "unit": "tonne",
+                        "multiplier": "0.001"
+                    },
+                    {
+                        "unit": "kilogram",
+                        "multiplier": "1"
+                    },
+                    {
+                        "unit": "gram",
+                        "multiplier": "1000"
+                    },
+                    {
+                        "unit": "milligram",
+                        "multiplier": "1000000"
+                    },
+                    {
+                        "unit": "microgram",
+                        "multiplier": "1000000000"
+                    },
+                    {
+                        "unit": "imperialTonne",
+                        "multiplier": "0.000984207"
+                    },
+                    {
+                        "unit": "usTonne",
+                        "multiplier": "0.00110231"
+                    },
+                    {
+                        "unit": "stone",
+                        "multiplier": "0.157473"
+                    },
+                    {
+                        "unit": "pound",
+                        "multiplier": "2.20462"
+                    },
+                    {
+                        "unit": "ounce",
+                        "multiplier": "35.274"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "type": "length",
+        "conversions": [
+            {
+                "from": "kilometre",
+                "to": [
+                    {
+                        "unit": "kilometre",
+                        "multiplier": "1"
+                    },
+                    {
+                        "unit": "metre",
+                        "multiplier": "1000"
+                    },
+                    {
+                        "unit": "centimetre",
+                        "multiplier": "100000"
+                    },
+                    {
+                        "unit": "milimetre",
+                        "multiplier": "1000000"
+                    },
+                    {
+                        "unit": "micrometre",
+                        "multiplier": "1000000000"
+                    },
+                    {
+                        "unit": "nanometre",
+                        "multiplier": "1000000000000"
+                    },
+                    {
+                        "unit": "mile",
+                        "multiplier": "0.621371"
+                    },
+                    {
+                        "unit": "yard",
+                        "multiplier": "1093.61"
+                    },
+                    {
+                        "unit": "foot",
+                        "multiplier": "3280.84"
+                    },
+                    {
+                        "unit": "inch",
+                        "multiplier": "39370.1"
+                    },
+                    {
+                        "unit": "nauticalMile",
+                        "multiplier": "0.539957"
+                    }
+                ]
+            },
+            {
+                "from": "metre",
+                "to": [
+                    {
+                        "unit": "kilometre",
+                        "multiplier": "0.001"
+                    },
+                    {
+                        "unit": "metre",
+                        "multiplier": "1"
+                    },
+                    {
+                        "unit": "centimetre",
+                        "multiplier": "100"
+                    },
+                    {
+                        "unit": "milimetre",
+                        "multiplier": "1000"
+                    },
+                    {
+                        "unit": "micrometre",
+                        "multiplier": "1000000"
+                    },
+                    {
+                        "unit": "nanometre",
+                        "multiplier": "1000000000"
+                    },
+                    {
+                        "unit": "mile",
+                        "multiplier": "0.000621371"
+                    },
+                    {
+                        "unit": "yard",
+                        "multiplier": "1.09361"
+                    },
+                    {
+                        "unit": "foot",
+                        "multiplier": "3.28084"
+                    },
+                    {
+                        "unit": "inch",
+                        "multiplier": "39.3701"
+                    },
+                    {
+                        "unit": "nauticalMile",
+                        "multiplier": "0.000539957"
+                    }
+                ]
+            }
+        ]
+    }
+]
